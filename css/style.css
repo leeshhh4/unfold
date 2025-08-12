@@ -1679,6 +1679,7 @@ ul.f_link li a::after{
 ul.f_link li:nth-child(5) a::after{
     display: none;
 }
+
 ul.sns{
     display: flex;
     margin-bottom: 50px;
@@ -1693,5 +1694,4 @@ ul.sns li a{
 }
 ul.sns li a:hover{
     opacity: 1;
-
 }
