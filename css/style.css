@@ -527,6 +527,9 @@ ul.folder_wrap li:nth-child(2) {
     font-size: 12px;
     font-weight: 200;
 }
+ul.folder_wrap li:nth-child(2) .folder_txt{
+    text-align: right;
+}
 
 ul.folder_wrap li:hover a {
     color: #b6ff00;
@@ -798,11 +801,13 @@ ul.folder_wrap li:nth-child(2) .close_folder {
 }
 
 .sec4_character {
-    filter: drop-shadow(30px 30px 5px rgba(0, 0, 0, 0.3));
     width: 350px;
     transform: translate(200px, 50px);
     z-index: 89;
+    filter: drop-shadow(30px 30px 5px rgba(0, 0, 0, 0.3));
 }
+
+
 .sec4_glass {
     position: absolute;
     top: 450px;
@@ -1650,27 +1655,28 @@ ul.f_link{
     display: flex;
     margin-bottom: 50px;
 }
+ul.f_link li{
+    opacity: 0.5;
+}
 ul.f_link li a{
     display: block;
-    opacity: 0.5;
     margin-right: 20px;
 }
-ul.f_link li a:hover{
+ul.f_link li p:hover{
     opacity: 1;
 }
 .l_footer p{
     opacity: 0.5;
 }
-ul.f_link li a::after{
+ul.f_link li p::after{
     content: "";
     width: 1px;
     height: 13px;
     background-color: #ddd;
     display: inline-block;
     margin-left: 20px;
-    vertical-align: -1px;
 }
-ul.f_link li:nth-child(5) a::after{
+ul.f_link li:nth-child(5) p::after{
     display: none;
 }
 
@@ -1688,5 +1694,4 @@ ul.sns li a{
 }
 ul.sns li a:hover{
     opacity: 1;
-
 }
