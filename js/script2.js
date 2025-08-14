@@ -14,6 +14,22 @@ var swiper = new Swiper(".mySwiper1", {
     clickable: true,
   },
 });
+var swiper = new Swiper(".mySwiper4", {
+  slidesPerView: 5,
+  spaceBetween: 30,
+  loop: true,
+  freeMode: true,
+  speed: 4500, // 속도 (전체 루프 시간)
+  autoplay: {
+    delay: 0, // 지연 없이
+    disableOnInteraction: false,
+  },
+  freeModeMomentum: false, // 관성 멈춤
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
 
 
 // sec03 swiper slide

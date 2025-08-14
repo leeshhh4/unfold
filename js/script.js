@@ -266,7 +266,7 @@ $(function(){
         $(this).hover(function () {
           $(this).find('.flex-title').css({
             // transform: 'rotate(0deg)',
-            top: '10%'
+            top: '20%'
           });
           $(this).find('.flex-about').css({
             opacity: '1'
@@ -278,7 +278,7 @@ $(function(){
           });
           $(this).find('.flex-about').css({
             opacity: '0',
-            trasform: 'scale(0)'
+            // transform: 'scale(0)'
           });
         })
       });

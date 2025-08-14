@@ -426,6 +426,25 @@ ul.guesttalk{
     box-shadow: 0 0 20px rgba(181, 255, 0, 0.5);
     border-radius: 10px;
 }
+.tarotcard_wrap{
+    position: relative;
+}
+.tarotcard_back{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tarotcard_back img{
+    width: 250px;
+    height: 341px;
+}
+.tarot_front{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
 .t2 p{
     text-align: right;
 }
