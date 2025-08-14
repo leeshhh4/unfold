@@ -31,6 +31,42 @@ var swiper = new Swiper(".mySwiper4", {
   },
 });
 
+// gsap 타로카드 회전
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to(".t1 .tarotcard_inner", {
+  rotateY: 180,
+  ease: "power2.inOut",
+  scrollTrigger: {
+    trigger: ".t1",
+    start: "top 80%",
+    once: true, // 한 번만 회전
+    markers: false
+  }
+});
+
+gsap.to(".t2 .tarotcard_inner", {
+  rotateY: 180,
+  ease: "power2.inOut",
+  scrollTrigger: {
+    trigger: ".t2",
+    start: "top 80%",
+    once: true,
+    markers: false
+  }
+});
+
+gsap.to(".t3 .tarotcard_inner", {
+  rotateY: 180,
+  ease: "power2.inOut",
+  scrollTrigger: {
+    trigger: ".t3",
+    start: "top 80%",
+    once: true,
+    markers: false
+  }
+});
+
 
 // sec03 swiper slide
 var swiper = new Swiper(".mySwiper2", {
