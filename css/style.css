@@ -1618,10 +1618,40 @@ ul.about_txt{
     position: absolute;
     top: 0;
     right: 120px;
+    width: 297px;
+    height: 447px;
+    overflow: hidden;
+    border-radius: 50px 50px 0 0;
 }
 .app_img img{
     display: block;
     width: 100%;
+}
+.app_design{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 274px;
+    overflow: hidden;
+    z-index: 88;
+    
+    animation: app 20s infinite ease-in-out;
+}
+.app_mockup{
+    position: absolute;
+    top: 0;
+    z-index: 89;
+}
+@keyframes app{
+    0%{
+        top: 10px;
+    }
+    50%{
+        top: -1100px;
+    }
+    100%{
+        top: 10px;
+    }
 }
 
 
